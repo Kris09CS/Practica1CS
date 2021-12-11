@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Garamond;
+    src: url("../Fuentes/CormorantGaramond-SemiBoldItalic.ttf");
+}
+@font-face {
+    font-family: Righteous;
+    src: url("../Fuentes/Righteous-Regular.ttf");
+}
+/* diseno general*/
+*{
+    font-family:Garamond;
+    background-color: #DFDFE1;
+    text-align: justify;
+}
+body{
+    margin: 35px;
+}
+/* diseno encabezado*/
+h1{
+    text-align: center;
+    font-size: 60px;
+    float: left;
+    padding: 30px 2px;
+    width: 55%;
+}
+ul#listap li{
+    font-family: Righteous;
+    display: block;
+    float: left;
+    background-color: #114073;
+    width: 150px;
+    height: 50px;
+    font-size: 27px;
+    border: dotted blue 2px;
+    padding: 20px 5px;
+    text-align:center;
+   }
+   img#i1 {
+    width: 30%;   
+    float: left;
+    padding: 70px 60px;
+   }
+   a:visited {
+	color: black;
+}
+a:hover {
+	color:blueviolet;
+}
+
+
+   /* diseno secciones*/
+   h2{
+       font-weight: 900;
+   
+   }
+
+   article {
+    float: left;
+    width: 40%;
+    margin: 10px 10px;
+    padding: 20px 15px;
+    height: 380px;
+   }
+   #conta {
+    float: left;
+    width: 40%;
+    padding: 5px 10px; 
+
+   }
+   aside{
+    float: left;
+    width: 45%;
+    height: 580px;
+   }
+   div{
+    float: left;
+    width: 25%;
+    padding: 5px; 
+    border: solid #E0B952;
+   }
+   img#i3 {
+        padding: 10px 2px 49px 25px;
+   }
+   video{
+       width: 400px;
+       height: 300px;
+   }
+   .tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-7btt{color: #114073;background-color: #E0B952;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-fymr{color: #114073;background-color: #E0B952;border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{color: #114073;border-color:inherit;text-align:left;vertical-align:top}
+
+strong{
+    font-family: Rigtheous;
+}
+span{
+    color:#114073;
+    font-weight: 900;
+    font-size: 20px;
+}
+ul.capa li{
+font-size: 25px;
+list-style-type:square;
+}
+   /* diseno del pie de pagina*/
+   footer {
+    clear: both;
+    margin: 10px 5px;
+    border: dotted #114073;
+    width: 100%;
+    height: 100px;
+       }
+       footer p{
+           float: left;
+       }
+   .empresa{
+       float:left;
+       font-style: italic;
+       font-family: Righteous;
+   }
